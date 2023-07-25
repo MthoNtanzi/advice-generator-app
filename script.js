@@ -15,9 +15,4 @@ function getAdvice(){
     });
 }
 
-// getAdvice();
-
-// Event Listeners
-body.onload = getAdvice();
-
 newQouteBtn.addEventListener('click',getAdvice);
